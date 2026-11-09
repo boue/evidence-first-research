@@ -114,7 +114,7 @@ Collapsing them into one “confidence” score violates this skill.
 
 ## What this skill leaves to the host
 
-Source discovery, rankings, product dates/timezones, UI routes, schedulers, delivery channels, embeddings, and domain-specific adapters stay in the host. One known adapter shape is a fetch module + evidence store + claim-grounding module behind the port above.
+Source discovery, rankings, product dates/timezones, UI routes, schedulers, delivery channels, embeddings, and domain-specific adapters stay in the host. A typical adapter is a fetch module, an immutable evidence store, and a claim-grounding module behind the port above.
 
 ## Install
 
